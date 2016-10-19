@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script src="codeclubber.js"></script>
+    <script>
+        function goclubbing(event) {
+            event.preventDefault();
+            var inputEl  = document.getElementById('input');
+            var outputEl = document.getElementById('output');
+            outputEl.innerHTML = codeclubber(inputEl.value);
+        }
+    </script>
+</head>
+    <body>
+    <form onsubmit="goclubbing(event)">
+        <input type="text" id="input"/>
+        <button>Club it!</button>
+    </form>
+    <h1 id="output"></h1>
+    </body>
+</html>
