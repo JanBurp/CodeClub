@@ -1,4 +1,4 @@
 # CodeClub
 DHNZ CodeClub
 
-[Marcel](www.doehetnietzelf.org) probeert eens wat.
+[Marcel](http://www.doehetnietzelf.org) probeert eens wat.
